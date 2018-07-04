@@ -7,6 +7,5 @@ $(document).ready(function(){
     if(currentDate.getTime() > expiryDate.getTime()){
         $('#hr3').show();
         $('#row3').show();
-    }
-    console.log("hehe");
+    } 
 })
